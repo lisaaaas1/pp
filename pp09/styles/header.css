@@ -1,0 +1,32 @@
+header {
+    margin: 30px 0px 80px 0px;
+}
+
+
+.header-nav {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.header-content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-link {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header-burger {
+    display: none;
+}

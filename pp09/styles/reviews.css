@@ -1,0 +1,17 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0 150px;
+} 
+
+.reviews-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+    font-size: 24px;
+}
+.reviews-content p {
+    padding-top: 150px;
+}

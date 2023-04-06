@@ -1,0 +1,118 @@
+@media (max-width: 1025px) {
+    
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .header-content img {
+        width: 350px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    .orange-button {
+        font-size: 16px;
+        padding: 5px 40px;
+    }
+
+    p, a{
+        font-size: 16px;
+    }
+    .reviews-content {
+        gap: 30px;
+    }
+    .reviews-content p {
+        padding-top: 0px;
+    }
+    .carousel2 img {
+        width: 150px;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-grid {
+        padding: 40px 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-link {
+        padding: 0px;
+    }
+    .footer-grid {
+        padding: 40px 100px;
+    }
+    .reviews-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .h-nav {
+        display: none;
+    }
+    .header-burger {
+        display: block;
+    }
+    .header-content {
+        margin-top: 30px;
+        gap: 20px;
+        display: block;
+    }
+    .header-content img {
+        width: 150px;
+    }
+    .work-boxes {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .vp-center {
+        max-width: 150px;
+    }
+    .video {
+        display: none;
+    }
+    .footer-grid {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .footer-grid p, h3{
+        font-size: 10px;
+    }
+    .reviews-content p{
+        font-size: 12px;
+    }
+    .footer-copyright p{
+        font-size: 8px;
+    }
+    .reviews {
+        padding: 0 40px;
+    }
+    .work-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 150px 
+    }
+    .work-box img {
+        height: 30px;
+    }
+    .work-box p {
+        font-size: 12px;
+    }
+    .work-box h3 {
+        font-size: 14px;
+    }
+    .d-flex {
+        gap: 20px;
+    }
+}

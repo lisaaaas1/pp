@@ -1,0 +1,15 @@
+footer {
+    
+    background: #1E1E1E;
+    margin: 0;
+}
+
+.footer-grid {
+    padding: 80px 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-copyright p{
+    margin: 0;
+    padding-left: 40%;
+}
